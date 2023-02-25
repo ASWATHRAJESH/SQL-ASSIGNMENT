@@ -43,4 +43,4 @@ SELECT * FROM customer ;
 
 SELECT cust_name , name AS 'Salesman' , customer.city
 FROM salesman
-JOIN customer ON salesman.city = customer.city
+JOIN customer ON salesman.city = customer.city ;
